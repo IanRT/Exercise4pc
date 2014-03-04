@@ -2,8 +2,6 @@ package search;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Queue;
-import java.util.Stack;
 
 import rp13.search.interfaces.Agenda;
 import rp13.search.interfaces.SuccessorFunction;
@@ -11,7 +9,6 @@ import rp13.search.util.*;
 
 public class UninformedSearch<ActionT, StateT>
 {
-	private ActionStatePair<ActionT, StateT> node;
 	private ActionStatePair<ActionT, StateT> theNode;
 	public ArrayList<ActionT> doSearch(StateT start, StateT goal, SuccessorFunction<ActionT, StateT> successorFn, Agenda<ActionStatePair<ActionT, StateT>> agenda)
 	{
