@@ -18,7 +18,6 @@ public class UninformedSearch<ActionT, StateT>
 		ArrayList<StateT> visited = new ArrayList<StateT>();
 		successorFn.getSuccessors(start, firstSuccessors);
 		visited.add(start);
-		assert(firstSuccessors != null);
 		for (ActionStatePair<ActionT, StateT> node: firstSuccessors) 
 		{
 			if(visited.contains(node.getState()) == false)
