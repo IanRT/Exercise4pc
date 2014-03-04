@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="210" started-at="2014-03-04T11:01:19Z" finished-at="2014-03-04T11:01:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="210" started-at="2014-03-04T11:01:19Z" finished-at="2014-03-04T11:01:19Z">
+      <class name="search.Tester">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:search.Tester@38946002]" name="beforeMethod" is-config="true" duration-ms="18" started-at="2014-03-04T11:01:19Z" finished-at="2014-03-04T11:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="bfsTestEight()[pri:0, instance:search.Tester@38946002]" name="bfsTestEight" duration-ms="168" started-at="2014-03-04T11:01:19Z" finished-at="2014-03-04T11:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsTestEight -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:search.Tester@38946002]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2014-03-04T11:01:19Z" finished-at="2014-03-04T11:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dfsTestEight()[pri:0, instance:search.Tester@38946002]" name="dfsTestEight" duration-ms="6" started-at="2014-03-04T11:01:19Z" finished-at="2014-03-04T11:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dfsTestEight -->
+      </class> <!-- search.Tester -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
